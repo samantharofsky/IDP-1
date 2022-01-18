@@ -1,0 +1,1 @@
+This project does not implement any of the six things. However, I do think that as my first project in this class, it demonstrates my growth. I was unfamiliar with P5.js, but I did watch several videos and read some things about markdown, so I used the index.html to create this project. I also learned how to look up resources on the internet and use them in my own code. 

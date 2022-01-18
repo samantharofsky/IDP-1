@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+<head>
+ <title>Top Five Destinations I Want to Visit </title>
+</head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title> Top Five Most Popular Travel Destinations 2021 </title>
+    <link href="style.css" rel="stylesheet" type="text/css" />
+
+  </head>
+  </body>
+    <script src="script.js"></script>
+  </body>
+</html>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Top Five Destinations I want to Visit</title>
+</head>
+<body>
+
+<h1><center> Top Five Destinations I Want to Visit</h1>
+<!-- <center><button type="button">Click for Places</button> -->
+<center><h2>Click to See Places</h2>
+<div class="content">
+</div>
+
+<button type="button" class="collapsible">#5</button>
+<div class="content">
+<h1> <center> #5 France </h1>
+<h2> <center> Paris</h2>
+<center> <img id ="paris" src= "paris.jpg">
+<center> <h2> Provence</h2>
+<center> <img id = "provence" src= "provence.jpg" width="200">
+<center> <h2> French Alps</h2> 
+<center> <img id="FrenchAlps" src= "French Alps.jpg" width="200">
+</div>
+<button type="button" class="collapsible">#4</button>
+<div class="content">
+<H1> <center> #4 Bora Bora </H1>
+<!-- <center><button type="button">Click for Places</button> -->
+<center> <h2> Matria Beach </h2>
+<center> <img id ="matirabeach" src="matriabeach.jpg" width="200">
+<center> <h2> Mount Otemanu </h2>
+<center> <img id = "mountotemanu" src= "mountotemanu.jfif" width="200">
+</div>
+<button type="button" class="collapsible">#3</button>
+<div class="content">
+<center> <H1> #3 Portugal </H1>
+<!-- <center><button type="button">Click for Places</button> -->
+<center> <h2> Madeira </h2>
+<center> <img id ="madeira.jfif" src= "madeira.jfif" width="200">
+<center> <h2> Lagos </h2>
+<center> <img id = "lagos.jpg" src= "lagos.jpg" width="200">
+<center> <h2>Ponta Delgada</h2> 
+<center> <img id="pontadelgada.jpg" src= "pontadelgada.jpg" width="200">
+</div>
+<button type="button" class="collapsible">#2</button>
+<div class="content">
+<center> <H1> #2 Italy </H1>
+<!-- <center><button type="button">Click for Places</button> -->
+<center> <h2> Venice </h2>
+<center> <img id ="venice.jpg" src= "venice.jpg" width="200">
+<center> <h2> Florence </h2>
+<center> <img id = "florence.jpg" src= "florence.jpg" width="200">
+<center> <h2> Rome </h2> 
+<center> <img id="rome.jfif" src= "rome.jfif" width="200">
+</div>
+<button type="button" class="collapsible">#1</button>
+<div class="content">
+<center> <H1> #1 Greece </H1>
+<!-- <center><button type="button">Click for Places</button> -->
+<center> <h2> Athens </h2>
+<center> <img id ="athens.jpg" src= "athens.jpg" width="200">
+<center> <h2> Santorini </h2>
+<center> <img id = "santorini.jpg" src= "santorini.jpg" width="200">
+<center> <h2> Meteora </h2> 
+<center> <img id="meteora.jpg" src= "meteora.jpg" width="200">
+</div>
+
+<script>
+var coll = document.getElementsByClassName("collapsible");
+var i;
+
+for (i = 0; i < coll.length; i++) {
+  coll[i].addEventListener("click", function() {
+    this.classList.toggle("active");
+    var content = this.nextElementSibling;
+    if (content.style.display === "block") {
+      content.style.display = "none";
+     } else {
+     content.style.display = "block";
+    }
+  });
+}
+</script>
+
+</body>
+</html>

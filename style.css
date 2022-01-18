@@ -1,0 +1,23 @@
+#paris{
+  width:200px;
+}
+#provence{
+  width:200px
+}
+#FrenchAlps{
+  width:200px
+}
+
+body{
+  background-image: url("background2.jfif");
+   /* Full height */
+  height: 100%;
+
+  /* Center and scale the image nicely */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+#matriabeach{
+  width:200px
+}
